@@ -1,4 +1,4 @@
 <?php
 
-define(URL, 'http://localhost:8888/VIDEOTUTORIALES/insertfromcsv/');
+define('URL', 'http://localhost:8888/innerjoin/');
 

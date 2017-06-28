@@ -32,9 +32,17 @@ class Users{
             
             switch ($data['profName']){
                 case 'Admin':
+                    //Borrar desde aquí
+                    echo "Has iniciado Sesión como Administrador.";
+                    die();
+                    //Borrar hasta aquí
                     header('location: ' . URL . 'admin/');
                     break;
                 case 'Standard':
+                    //Borrar desde aquí
+                    echo "Has iniciado Sesión como Usuario Estandar.";
+                    die();
+                    //Borrar hasta aquí
                     header('location: ' . URL . 'dashboard/');
                     break;
             }
